@@ -1,0 +1,97 @@
+.home-main {
+    background-attachment: fixed;
+    background-image: url('../images/man\ bg2.jpg');
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+}
+
+.main-content {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main-content h1 {
+    font-size: 3rem;
+}
+
+.main-content p {
+    font-size: small;
+    margin: 0rem 0;
+}
+
+.gradient-btn1 {
+    width: 200px;
+    height: 45px;
+    display: grid;
+    place-items: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #0072ff;
+    background-image: linear-gradient(to right,
+            #4162cf 0% #0072ff 51% #4162cf 100%);
+    border-radius: 10px;
+    background-size: 200% auto;
+    transition: .3s ease-in-out;
+    margin-top: 1.5rem;
+}
+
+.gradient-btn1:hover {
+    background-position: right center;
+}
+
+@media screen and (max-width:600px) {
+   
+ .main-content h1 {
+        font-size: 2.25rem;
+    }
+
+    .main-content p {
+        font-size: 1rem;
+    }
+
+    .gradient-btn1 {
+        width: 175px;
+        height: 40px;
+        font-size: .8rem;
+
+    }
+    .gradient-btn{
+        width: 175px;
+        height: 40px;
+        font-size: .8rem;
+    
+    }
+}
+.gradient-btn{
+    width: 80%;
+    height: 50px;
+    display:grid;
+    place-items: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #0072ff;
+    background-image:linear-gradient(
+    to right,
+    #4162cf 0%
+    #0072ff 51%
+    #4162cf 100%
+    );
+    animation: alternate;
+    transition-duration: .3ms;
+    border-radius: 10px;
+    background-size: 200% auto;
+    transition: .3s ease-in-out;
+    margin-top: 1.5rem;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.24),0 6px 20px 0 rgba(0,0,0,0.19);
+    opacity: 0.9;
+    
+}
+.gradient-btn:hover{
+    opacity: 2;
+}
+
+
